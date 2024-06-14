@@ -27,7 +27,7 @@ pipeline {
             steps {
                 script {
                     // Ensure Jenkins has sudo privileges to run docker
-                    sh 'sudo docker run -itd -p 8088:8081 sagmaddy/insuranceproject:v1'
+                    sh 'sudo docker run -itd -p 8087:8081 sagmaddy/insuranceproject:v1'
                 }
             }
         }
